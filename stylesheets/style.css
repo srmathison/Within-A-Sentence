@@ -1,6 +1,22 @@
 body {
 	background: black;
 	font-family: 'PT Mono';
+	font-size: 36px;
 	color: white;
+}
+
+#wrapper {
+	width: 100vw;
+	height: 100vh;
+	border: 1px solid white;
+
+}
+
+#quote-holder {
+	text-align: center;
+	width: 75vw;
+	border: 1px solid white;
+	margin: 0 auto;
+	margin-top: 5%;
 }
 
