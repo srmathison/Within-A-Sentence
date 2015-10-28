@@ -2,9 +2,14 @@ $(document).ready(function(){
 
 // array with strings of quotes
 var quotes = [
-		"here is a quote",
-		"this is another",
-		"why not add one more"
+		"there are no happy endings", 
+		"endings are the saddest part", 
+		"so just give me a happy middle",
+		"and a very happy start",
+		"i myself do not believe in explaining anything",
+		"i believe that if you don't want to do anything",
+		"then sit there and don't do it",
+		"but don't expect people to hand you a corn beef sandwich and wash your socks for you and unzip your fly for you"
 	];
 // randomly select string/quote from array
 var randomIndex = Math.floor(Math.random() * quotes.length); 
@@ -19,7 +24,7 @@ for (i in newStr ) {
 	newStr[i] = newWord;
 }
 var newQuote = newStr.join(" ");
-document.getElementById("quote").innerHTML = ' /" + newQuote + /" ';
+document.getElementById("quote").innerHTML = newQuote;
 
 });
 
